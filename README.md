@@ -46,10 +46,11 @@ Great-Pizza-Analytics-Challenge
 └── docs
     ├── challenge_questions.md         # Clean list of 3-phase questions
     ├── analysis_notes.md              # Short write-up of insights
-    └── ERD.png                        # Database diagram (optional)```
-
+    └── ERD.png                        # Database diagram (optional)
+```
 
 ## 🧩 Challenge Breakdown
+
 ### 📌 Phase 1 — Foundation & Inspection
 
 Core concepts:
