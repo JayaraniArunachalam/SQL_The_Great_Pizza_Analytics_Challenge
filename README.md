@@ -24,26 +24,26 @@ Great-Pizza-Analytics-Challenge
 │
 ├── README.md
 │
-├── data/
+├── data
 │   ├── IDC_Pizza.dump                 # Database backup file
 │   └── order_details.csv             
 │   └── orders.csv               
 │   └── pizza_types.csv              
 │   └── pizzas.csv              
 │
-├── queries/
+├── Scripts
 │   ├── phase_1_foundation.sql         # Creating DB idc_pizza, creating 4 tables order_details, orders, pizza_types, pizzas
 │   ├── phase_2_filtering.sql          # DISTINCT, NULL checks, basic exploration, WHERE, LIKE, BETWEEN, time filters
 │   ├── phase_3_performance.sql        # Joins, GROUP BY, HAVING, advanced logic
 │   └── helper_queries.sql             # Extra checks, schema inspection
 │
-├── outputs/
+├── outputs
 │   ├── phase_1.csv
 │   ├── phase_2.csv
 │   ├── phase_3.csv
 │   └── pizzas_never_ordered.csv
 │
-└── docs/
+└── docs
     ├── challenge_questions.md         # Clean list of 3-phase questions
     ├── analysis_notes.md              # Short write-up of insights
     └── ERD.png                        # Database diagram (optional)```
