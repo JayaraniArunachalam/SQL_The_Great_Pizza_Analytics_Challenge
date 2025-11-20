@@ -39,17 +39,16 @@ Great-Pizza-Analytics-Challenge
 │   
 │
 ├── outputs
-│   ├── phase_1.jpg
-│   ├── phase_2.jpg
-│   ├── phase_3.jpg
+│   ├── total_order_value_per_order.csv
+│   ├── total_quantity_sold_per_pizza_quantity.jpg
+│   ├── price_differences_between_pizzas_of_different_sizes.csv
 │   └── pizzas_never_ordered.jpg
 │
 └── docs
     ├── challenge_questions.md         # Clean list of 3-phase questions
     ├── Phase 1.md
     ├── Phase 2.md
-    ├── Phase 3.md             
-    └── ERD.png                   
+    └── Phase 3.md                               
 ```
 
 ## 🧩 Challenge Breakdown
