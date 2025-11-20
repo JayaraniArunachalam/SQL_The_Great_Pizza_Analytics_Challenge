@@ -169,4 +169,4 @@ LINES TERMINATED BY '\n';
 
 4️⃣ Insights
 
-All interpretations are stored in .jpg formats
+All interpretations are stored in .jpg / .csv formats
