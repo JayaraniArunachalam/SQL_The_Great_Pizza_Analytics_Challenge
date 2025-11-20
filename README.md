@@ -32,10 +32,10 @@ Great-Pizza-Analytics-Challenge
 │   └── pizzas.csv              
 │
 ├── Scripts
-│   ├── db_table_design_creation.sql  # Foundation -Creating DB idc_pizza,4 table designs order_details,orders,pizza_types,pizzas
+│   ├── db_table_design_creation.sql  # Foundation -Creating DB idc_pizza,designing table structure
 │   ├── inspecting_data.sql           # Inspecting data - DISTINCT, IS NULL checks, WHERE, LIMIT, COALESCE
 │   ├── filtering_exploration.sql     # Joins, WHERE, multiple Joins
-│   └── sales_performance.sql         # Joins, GROUP BY, HAVING, advanced logic
+│   └── sales_performance.sql         # Self Joins, GROUP BY, HAVING, advanced logic
 │   
 │
 ├── outputs
@@ -170,3 +170,7 @@ LINES TERMINATED BY '\n';
 4️⃣ Insights
 
 All interpretations are stored in .jpg / .csv formats
+
+Thank you [Indian Data Club](https://www.linkedin.com/company/indian-data-club/posts/?feedView=all) for starting this challenge and [DPDzero](https://www.linkedin.com/company/dpdzero/) the title sponsor of this challenge
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/jayarani-arunachalam-23jun1990/)
