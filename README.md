@@ -32,7 +32,7 @@ Great-Pizza-Analytics-Challenge
 │   └── pizzas.csv              
 │
 ├── Scripts
-│   ├── DB_table_design_creation.sql  # Foundation -Creating DB idc_pizza,4 table designs order_details,orders,pizza_types,pizzas
+│   ├── db_table_design_creation.sql  # Foundation -Creating DB idc_pizza,4 table designs order_details,orders,pizza_types,pizzas
 │   ├── inspecting_data.sql           # Inspecting data - DISTINCT, IS NULL checks, WHERE, LIMIT, COALESCE
 │   ├── phase_3_performance.sql       # Joins, GROUP BY, HAVING, advanced logic
 │   └── helper_queries.sql            # Extra checks, schema inspection
