@@ -47,3 +47,123 @@ Great-Pizza-Analytics-Challenge
     ├── challenge_questions.md         # Clean list of 3-phase questions
     ├── analysis_notes.md              # Short write-up of insights
     └── ERD.png                        # Database diagram (optional)```
+
+
+## 🧩 Challenge Breakdown
+### 📌 Phase 1 — Foundation & Inspection
+
+Core concepts:
+
+DISTINCT
+
+NULL handling with COALESCE
+
+Basic selection
+
+Schema understanding
+
+Example topics:
+
+List all unique pizza categories
+
+Show pizza_type_id, name, ingredients with "Missing Data" for NULL
+
+Find pizzas without price
+
+### 📌 Phase 2 — Filtering & Exploration
+
+Skills applied:
+
+WHERE, AND, OR, NOT
+
+IN, BETWEEN
+
+Pattern matching with LIKE
+
+Time-based filtering
+
+Examples:
+
+Orders on specific dates
+
+Pizzas priced between ranges
+
+Pizzas containing "Chicken"
+
+Orders after 8 PM
+
+### 📌 Phase 3 — Sales Performance
+
+Advanced analytics:
+
+Joins (INNER, LEFT, RIGHT, FULL, SELF JOIN)
+
+Aggregations (SUM, AVG, COUNT)
+
+GROUP BY + HAVING conditions
+
+Combining tables to calculate revenue and trends
+
+Examples:
+
+Total quantity sold
+
+Total order value per order
+
+Category-wise performance
+
+Products never ordered
+
+Price differences between pizza sizes
+
+## 🎯 Skills Demonstrated
+
+Database creation from dump
+
+Joins (inner, left, right, full outer, self)
+
+Data cleaning & transformation
+
+Aggregation & grouping
+
+Filtering & conditional logic
+
+NULL handling with COALESCE
+
+Identifying anomalies (missing price, missing ingredients)
+
+## 📊 Business Insights
+
+Top-selling categories
+
+Price positioning
+
+Product gaps (never-ordered pizzas)
+
+Category-wise demand
+
+Size-based price strategy
+
+## 📝 How to Use This Repo
+1️⃣ Setup Database
+
+Import the dump:
+
+mysql -u root -p IDC_Pizza < IDC_Pizza.dump
+
+2️⃣ Run SQL Queries
+
+Each .sql file maps directly to the challenge questions.
+
+3️⃣ Export Results to CSV
+
+Example:
+
+SELECT * FROM ... 
+INTO OUTFILE '/path/phase_1.csv'
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n';
+
+4️⃣ Insights
+
+All interpretations are stored in docs/analysis_notes.md.
