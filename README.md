@@ -34,19 +34,22 @@ Great-Pizza-Analytics-Challenge
 ├── Scripts
 │   ├── db_table_design_creation.sql  # Foundation -Creating DB idc_pizza,4 table designs order_details,orders,pizza_types,pizzas
 │   ├── inspecting_data.sql           # Inspecting data - DISTINCT, IS NULL checks, WHERE, LIMIT, COALESCE
-│   ├── phase_3_performance.sql       # Joins, GROUP BY, HAVING, advanced logic
-│   └── helper_queries.sql            # Extra checks, schema inspection
+│   ├── filtering_exploration.sql     # Joins, WHERE, multiple Joins
+│   └── sales_performance.sql         # Joins, GROUP BY, HAVING, advanced logic
+│   
 │
 ├── outputs
-│   ├── phase_1.csv
-│   ├── phase_2.csv
-│   ├── phase_3.csv
-│   └── pizzas_never_ordered.csv
+│   ├── phase_1.jpg
+│   ├── phase_2.jpg
+│   ├── phase_3.jpg
+│   └── pizzas_never_ordered.jpg
 │
 └── docs
     ├── challenge_questions.md         # Clean list of 3-phase questions
-    ├── analysis_notes.md              # Short write-up of insights
-    └── ERD.png                        # Database diagram (optional)
+    ├── Phase 1.md
+    ├── Phase 2.md
+    ├── Phase 3.md             
+    └── ERD.png                   
 ```
 
 ## 🧩 Challenge Breakdown
@@ -167,4 +170,4 @@ LINES TERMINATED BY '\n';
 
 4️⃣ Insights
 
-All interpretations are stored in docs/analysis_notes.md.
+All interpretations are stored in .jpg formats
