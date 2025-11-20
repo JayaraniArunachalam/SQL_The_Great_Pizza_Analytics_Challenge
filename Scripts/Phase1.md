@@ -25,3 +25,8 @@ and perform basic inspection about the data
     order_id INT REFERENCES orders(order_id),
     pizza_id VARCHAR(50) REFERENCES pizzas(pizza_id),
     quantity INT
+
+## Inspection
+* List all unique pizza categories (`DISTINCT`).
+* Display `pizza_type_id`, `name`, and ingredients, replacing NULL ingredients with `"Missing Data"`. Show first 5 rows.
+* Check for pizzas missing a price (`IS NULL`).
