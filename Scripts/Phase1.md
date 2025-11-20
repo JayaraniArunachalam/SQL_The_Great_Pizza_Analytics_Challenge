@@ -4,9 +4,9 @@ and perform basic inspection about the data
 
 ## Foundation - Table details
 ### orders:
-* order_id INT PRIMARY KEY
-* date DATE
-* time TIME
+    order_id INT PRIMARY KEY
+    date DATE
+    time TIME
 
 ### pizza_types:
     pizza_type_id VARCHAR(50) PRIMARY KEY, -- e.g., 'bbq_ckn'
