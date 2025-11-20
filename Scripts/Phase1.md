@@ -1,7 +1,8 @@
-# Phase 1 
+# Phase 1 - Foundation and Inspection
 Phase 1 is about creating database idc_pizza , followed by creating 4 table structures namely order_details, orders, pizza_types and pizzas
+and perform basic inspection about the data 
 
-## Table details
+## Foundation - Table details
 ### orders:
 * order_id INT PRIMARY KEY
 * date DATE
