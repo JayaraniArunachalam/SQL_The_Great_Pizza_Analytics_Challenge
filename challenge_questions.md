@@ -39,5 +39,5 @@ Solutions are provided separately in CSV files.
 
 ## 📝 Notes
 - All answers must be provided in **CSV format only**, per challenge rules.
-- SQL scripts are stored separately under `/queries/`.
+- SQL scripts are stored separately under [Scripts](https://github.com/JayaraniArunachalam/SQL_The_Great_Pizza_Analytics_Challenge/tree/main/Scripts)
 
